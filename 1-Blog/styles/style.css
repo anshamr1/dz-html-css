@@ -1,0 +1,68 @@
+* {
+    background-color: #374151;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #fff;
+
+}
+
+.myBlog {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.63px;
+    color: #eee;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #eee;
+    text-decoration: none;
+}
+
+.frameHeader {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #eee;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.speciality {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.mainText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.baseText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footInfo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
