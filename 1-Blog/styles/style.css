@@ -7,6 +7,7 @@ h1 {
     font-size: 24px;
     line-height: 38px;
     color: #fff;
+    margin: 0 457px 30px 457px;
 
 }
 
@@ -23,6 +24,28 @@ a {
     line-height: 18.75px;
     color: #eee;
     text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border: 1px solid #1F293799;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    background-color: #1F293799;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 9px 128px 12px 49px;
 }
 
 .frameHeader {
@@ -30,6 +53,15 @@ a {
     font-size: 14px;
     line-height: 16.41px;
     color: #eee;
+    margin: 0 630px 14px 630px;
+}
+
+.userInfo {
+    margin: 0px 640px 28px 586px;
+}
+
+.mainImg {
+    margin: 0px 272px 69px 272px;
 }
 
 .name {
@@ -65,4 +97,5 @@ a {
     font-size: 16px;
     line-height: 28px;
     color: #fff;
+    text-align: center;
 }
