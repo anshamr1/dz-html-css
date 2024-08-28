@@ -4,31 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <p><a href="#"><span class="myBlog">В</span> Мой блог</a></p>
+    <header class="header__wrapper">
+        <p><a href="#"><span class="myBlog myBlog_box">В</span> Мой блог</a></p>
         <nav>
-            <ul>
-                <li><a href="#">HTML и CSS</a></li>
-                <li><a href="#">Frontend</a></li>
-                <li><a href="#">Backend</a></li>
+            <ul class="menu">
+                <li class="menu_item"><a href="#">HTML и CSS</a></li>
+                <li class="menu_item"><a href="#">Frontend</a></li>
+                <li class="menu_item"><a href="#">Backend</a></li>
             </ul>
         </nav>
         <form>
             <label for="text"></label>
-            <img src="./images/search.png" alt="Лупа">
-            <input type="text" placeholder="Поиск">
+            <img class="header_search" src="./images/search.png" alt="Лупа">
+            <input class="header_input" type="text" placeholder="Поиск">
         </form>
     </header>
 
     <main>
         <p class="frameHeader">FRONTEND &bull; 12 мая 2024</p>
 
-        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+        <h1>Теория цвета - Как цвет влияет на поведение <br />потребителей</h1>
 
         <div class="userInfo">
             <img src=".//images/Ellipse 1.png" alt="Фотография разработчика">
