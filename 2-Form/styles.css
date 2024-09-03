@@ -55,7 +55,7 @@ a {
 }
 
 
-button {
+.butt {
     background-color: #089FE0;
     color: #FFFFFF;
     font-size: 18px;
@@ -69,14 +69,17 @@ button {
     padding 9px 102px;
     position: relative;
     margin: 0;
-    */
+    justify-content: center;
 }
 
-
+.buttimg {
+    position: relative;
+}
 
 img {
     position: absolute;
-    background-color: red;
+    top: 10px;
+    right: 120px;
 
 }
 
