@@ -83,12 +83,12 @@ input::placeholder {
 
 .userInfo {
     display: flex;
-    flex-direction: column;
+    gap: 16px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-
-
+    text-align: left;
+    padding-bottom: 28px;
+    margin: 0;
 }
 
 
@@ -102,6 +102,7 @@ input::placeholder {
     font-size: 16px;
     line-height: 28px;
     color: #fff;
+    margin: 0 auto;
 }
 
 .speciality {
@@ -111,6 +112,7 @@ input::placeholder {
     line-height: 28px;
     color: #fff;
     opacity: 60%;
+    margin: 0 auto;
 }
 
 .mainText {
