@@ -11,7 +11,7 @@ h1 {
     font-size: 24px;
     line-height: 38px;
     color: #fff;
-    margin: 0 457px 30px 457px;
+    margin: 0 auto 30px;
 }
 
 .myBlog {
@@ -22,6 +22,7 @@ h1 {
     color: #eee;
     justify-content: center;
     align-items: center;
+    gap: 11px;
 }
 
 .myBlog_box {
@@ -35,7 +36,7 @@ h1 {
     line-height: 22.63px;
     border-radius: 3px;
     background: #4B5563;
-    margin: 0px 11px 0px 0px;
+    gap: 40px;
 }
 
 a {
@@ -55,6 +56,10 @@ nav ul {
     gap: 50px;
 
 
+}
+
+nav ul li:first-child {
+    margin-right: 13px;
 }
 
 input {
