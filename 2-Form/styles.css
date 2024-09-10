@@ -1,183 +1,152 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-body {
-
-    background:
-        linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%),
-        linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
-
-}
-
-input:focus {
-    background-color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 21.79px;
-    font-style: normal;
-
-}
-
-input {
-    caret-color: #089FE0;
-}
-
-section {
-    background-color: #FFFEFE;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 49.03px;
-    font: #333333;
-    padding: 0;
-    margin: 0 auto;
-}
-
-p {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24.51px;
-    color: #666666;
-    margin: 0;
-
-}
-
-a {
-    color: #089FE0;
-}
-
-
-.butt {
-    background-color: #089FE0;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24.51px;
-    height: 44px;
-    border-radius: 5px;
-    border: none;
-    width: 394px;
-    padding 9px 102px;
-    position: relative;
-    margin: 0;
-    justify-content: center;
-}
-
-.buttimg {
-    position: relative;
-}
-
-img {
-    position: absolute;
-    top: 10px;
-    right: 120px;
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-}
-
-.base-cent {
-    display: flex;
-    align-items: center;
+html {
+    background: linear-gradient(225deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%),
+        linear-gradient(225deg, #ffa5a5 33.09%, rgba(255, 255, 255, 0) 82.34%), #f39494;
     height: 100%;
 }
 
-.base-form {
-    background: #FFFEFE;
-    width: 582px;
-    height: 573px;
-    border-radius: 10px;
-    text-align: center;
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 582px;
+    border-radius: 10px;
+    padding: 72px 94px 91px;
+    background-color: #fffefe;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /* flex */
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 21px;
-    box-shadow: 0px 4px 4px 0px #00000040;
+    gap: 22px 1px;
 }
 
-.field__name {
-    background-color: #F5F5F5;
+h1 {
+    color: #333;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 0;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin: 0;
+}
+
+a {
+    color: #089fe0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+label {
+    color: #666;
+    font-size: 14px;
+}
+
+span {
+    font-size: 14px;
+}
+
+input:not([type="checkbox"]) {
+    color: #999;
+    background-color: #f5f5f5;
     font-size: 16px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    line-height: 21.79px;
-    border: 1px solid #F5F5F5;
+    border: 0;
     border-radius: 5px;
-    width: 394px;
-    height: 44px;
-    padding: 11px;
-
+    width: 100%;
+    line-height: 26px;
+    border: 1px solid #f5f5f5;
+    padding: 9px 35px 9px 11px;
 }
 
-.field__user-name {
-    background-color: #F5F5F5;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    line-height: 21.79px;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-    width: 196px;
-    height: 44px;
-    padding: 11px;
-}
-
-.field__user-surname {
-    background-color: #F5F5F5;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    line-height: 21.79px;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    width: 196px;
-    height: 44px;
-    padding: 11px;
-}
-
-.field_email {
-    background-color: #F5F5F5;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    line-height: 21.79px;
-    border: 1px solid #F5F5F5;
+button {
+    padding: 9px 12px;
+    width: 100%;
+    border: 0;
     border-radius: 5px;
-    width: 394px;
-    height: 44px;
-    padding: 11px;
+    font-size: 18px;
+    color: #fff;
+    background: url('./images/Arrow\ 1.svg') no-repeat right 24px center #089fe0;
+}
+
+input:not([type="checkbox"]):focus {
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .conditions {
-
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 19.07px;
-    width: 582px;
-    height: 19px;
-
+    align-self: flex-start;
+    position: relative;
 }
 
-.conditions a {
-    text-decoration: none;
+.conditions input {
+    width: auto;
+}
+
+.field {
+    display: flex;
+    gap: 1px;
+}
+
+.field input:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.field input:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.title a {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+input[type='checkbox'] {
+    opacity: 0;
+}
+
+input[type='checkbox']:checked+label[for='checkbox']::before {
+    background-color: #089fe0;
+    content: '✖';
+    padding: 0 3px;
+    color: white;
+}
+
+label[for='checkbox']::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin: 2px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #eeeeee;
+    background-color: #f5f5f5;
+    font-size: 11px;
 }
