@@ -1,0 +1,199 @@
+.tarifs__discription {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-align: center;
+    color: var(--color-text-discription);
+    margin-bottom: 40px;
+
+}
+
+.tarifs__card {
+    width: 369px;
+    height: 507px;
+    background-color: var(--color-bg-whitecard);
+    box-shadow: 0px 0px 32px 0px #4E5D7C29;
+    border-radius: 8px;
+    text-align: left;
+    justify-content: center;
+    padding: 40px;
+}
+
+.tarifs__card_year {
+    width: 369px;
+    height: 507px;
+    background-color: var(--color-bg-bluecard);
+    box-shadow: 0px 0px 32px 0px #4E5D7C29;
+    border-radius: 8px;
+    text-align: left;
+    justify-content: center;
+    padding: 40px;
+    color: #FFFFFF;
+}
+
+.tarifs__card_mounth {
+
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.tarifs_card_awaysale {
+    margin-top: 40px;
+}
+
+
+.tarifs__card_prices_main {
+    border-bottom: 1px solid rgba(78, 93, 124, 0.08);
+    padding-bottom: 16px;
+
+}
+
+.tarifs__card_prices_discount {
+    border-bottom: 1px solid rgba(78, 93, 124, 0.08);
+    padding-bottom: 16px;
+}
+
+.tarifs__card_prices_discount span {
+    width: 99px;
+    height: 36px;
+    border-radius: 8px;
+    background: #FFC736;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.4px;
+    text-align: center;
+    padding: 8px 16px;
+    color: #FFF;
+}
+
+.tarifs__card_prices_discount_bluecard span {
+    width: 99px;
+    height: 36px;
+    border-radius: 8px;
+    background: #FFC736;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.4px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.tarifs__card_prices_main_bluecard {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-bottom: 16px;
+
+}
+
+.tarifs__card_prices_discount_bluecard {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-bottom: 16px;
+
+}
+
+.tarifs__card_button {
+    background: #357EFE;
+    border-radius: 47px;
+    border: none;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 23.8px;
+    color: #FFFFFF;
+    padding: 12px 63.5px;
+    margin-top: 24px;
+
+
+}
+
+.tarifs__card_button_bluecard {
+    background: #FFF;
+    border-radius: 47px;
+    border: none;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 23.8px;
+    color: #357EFE;
+    padding: 12px 63.5px;
+
+}
+
+.tarifs__card_discription {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-align: left;
+    color: var(--color-text-discription);
+    margin-bottom: 50px;
+}
+
+.tarifs__card_discription_bluecard {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-align: left;
+    color: var(--color-text-discription-bluecard);
+    margin-bottom: 50px;
+}
+
+.tarifs_card_benefit {
+    width: 124px;
+    height: 29px;
+    border-radius: 8px;
+    background: #1ABC9C;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 4px;
+}
+
+.tarifs_card_benefit span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 21px;
+
+}
+
+/* .section__wrapper {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+} */
+
+/* .trust-wrapper { */
+/* display: grid; */
+/* grid-template-columns: [start] repeat(3, 1fr) [end]; */
+/* grid-column: start / end; */
+
+
+/* .wrapper__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+} */
+.wrapper {
+    max-width: var(--layout-width);
+    /* margin: 0 auto; */
+    padding: 100px 24px;
+}
+
+.trust-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 23px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
