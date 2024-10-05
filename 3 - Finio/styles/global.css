@@ -1,0 +1,41 @@
+:root {
+    --color-text-discription: #4E5D7C80;
+    --color-bg: #F5F5F5;
+    --color-bg-whitecard: #FFFFFF;
+    --color-bg-bluecard: #357EFE;
+    --color-underline: #4E5D7C14;
+    --color-text-discription-bluecard: #FFFFFF99;
+
+    --layout-width: 1920px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-bg);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23.8px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: center;
+    margin-top: 16px;
+}
