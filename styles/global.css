@@ -1,0 +1,129 @@
+:root {
+    --color-text-discription: #4E5D7C80;
+    --color-bg: #F5F5F5;
+    --color-bg-whitecard: #FFFFFF;
+    --color-bg-bluecard: #357EFE;
+    --color-underline: #4E5D7C14;
+    --color-text-discription-bluecard: #FFFFFF99;
+<<<<<<< HEAD
+
+    --layout-width: 1920px;
+=======
+    --color-text-lightwhite: #FFFFFFCC;
+
+    --container-width: 1392px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2ms;
+>>>>>>> d996e0a (дз 21.16)
+}
+
+* {
+    box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> d996e0a (дз 21.16)
+}
+
+body {
+    background: var(--color-bg);
+<<<<<<< HEAD
+    margin: 0;
+=======
+>>>>>>> d996e0a (дз 21.16)
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23.8px;
+<<<<<<< HEAD
+    text-align: center;
+=======
+>>>>>>> d996e0a (дз 21.16)
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Inter;
+<<<<<<< HEAD
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: center;
+    margin-top: 16px;
+=======
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+h4 {
+    padding-bottom: 20px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.hr__line {
+    width: 1349px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 0;
+    border: none;
+    border-top: 1px solid #4E5D7C14;
+}
+
+.hr__line_footer {
+    width: 1349px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 0;
+    border: none;
+    border-top: 1px solid #FFFFFF14;
+    margin-bottom: 38px;
+}
+
+.text-small-lightgray {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #4E5D7C80;
+}
+
+a,
+button,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+>>>>>>> d996e0a (дз 21.16)
+}
