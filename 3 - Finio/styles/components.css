@@ -29,6 +29,10 @@
      display: flex;
  }
 
+ .width_cards {
+        display: flex;
+        justify-content: center;
+ }
  .tarifs__card {
      display: flex;
      flex-direction: column;
@@ -190,8 +194,9 @@
 
  .trust-wrapper {
      display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-     justify-items: center;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 24px;
+     max-width: 1156px;
      margin-bottom: 80px;
  }
 
